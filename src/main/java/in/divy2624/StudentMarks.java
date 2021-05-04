@@ -23,7 +23,7 @@ public class StudentMarks {
 		 * passing average1 variable to GradeMarks class for getting the grade.
 		 */
 		
-		Student t1= new Student();
+		StudentDetails t1= new StudentDetails();
 		t1.tamil=99;
 		String tamilGrade1=GradeMarks.getGrade(t1.tamil);
 		t1.english=98;
@@ -47,7 +47,7 @@ public class StudentMarks {
 		 * passing average2 variable to GradeMarks class for getting the grade.
 		 */
 		
-		Student t2= new Student();
+		StudentDetails t2= new StudentDetails();
 		t2.tamil=79;
 		String tamilGrade2=GradeMarks.getGrade(t2.tamil);
 		t2.english=78;
@@ -71,7 +71,7 @@ public class StudentMarks {
 		 * passing average3 variable to GradeMarks class for getting the grade.
 		 */		
 		
-		Student t3= new Student();
+		StudentDetails t3= new StudentDetails();
 		t3.tamil=93;
 		String tamilGrade3=GradeMarks.getGrade(t3.tamil);
 		t3.english=98;

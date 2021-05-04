@@ -13,6 +13,14 @@ import java.util.Set;
  */
 public class WelcomePage {
 	public static void welcome() {
+		
+		/**
+		 * I assign CHAINSYS HIGHER SECONDARY SCHOOL
+		 * School informations are used to store HashMap.because HashMap is used to store 2 data types at a time and also removes duplicates.
+		 *  print all information from HashMap
+		 *  Also  display School starting date.
+		 */
+		
 		System.out.println("*******************************************************CHAINSYS HIGHER SECONDARY SCHOOL*****************************************************************");
 		HashMap<String,Integer>info=new HashMap<String,Integer>();
 		info.put("NUMBER OF STUDENTS  ", 600);
@@ -27,9 +35,9 @@ public class WelcomePage {
 			System.out.println(key+":"+value);
 			
 		}
-		String dateOfBirth="1980-06-07";
-		LocalDate dob=LocalDate.parse(dateOfBirth);
-		System.out.println("STARTING YEAR : "+dob);
+		String dateOfStart="1980-06-07";
+		LocalDate dos=LocalDate.parse(dateOfStart);
+		System.out.println("STARTING YEAR : "+dos);
 	}
 	
 

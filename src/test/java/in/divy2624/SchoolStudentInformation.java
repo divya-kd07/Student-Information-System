@@ -18,9 +18,9 @@ public class SchoolStudentInformation {
 		 * feature2: The purpose of this task is student registered for the school and the student information are stored in student database.
 		 */
 		
-		Registration.Application();
+	    Registration.application();
 		System.out.println("***********************************************REGISTRATION SUCESSFULLY***************************************************\n");
-		
+		/*
 		Login.UserLogin();
 		System.out.println("***********************************************LOGIN SUCESSFULLY**********************************************************\n");
 		
@@ -29,7 +29,7 @@ public class SchoolStudentInformation {
 		
 		System.out.println("***********************************************STUDENT FEES INFORMATION***************************************************\n");
 		StudentFees.totalFees();
-		
+		*/
 		}
 
 }

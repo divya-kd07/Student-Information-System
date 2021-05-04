@@ -9,7 +9,7 @@ import java.time.LocalDate;
  * @author divy2624
  *
  */
-public class Student {
+public class StudentDetails {
 	
 	public String name1;
 	public String name2;
