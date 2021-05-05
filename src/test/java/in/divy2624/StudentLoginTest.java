@@ -12,10 +12,10 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class LoginTest {
+public class StudentLoginTest {
 	
 	/**
-	 * FEATURE 2 : LOGIN
+	 * FEATURE 2 : LOGIN-STUDENT
 	 * To check it is successfully login or not
 	 * 
 	 * First test case is to pass correct emailId,userPassword,mobileNumber and return the true that is successfully login.
@@ -28,7 +28,7 @@ public class LoginTest {
 			String userPassword="Yavithi@89";
 			Long userMob=9080767678l;
 			String mobileNumber=String.valueOf(userMob);
-		    boolean login1=Login.studentLogin(emailId,userPassword,mobileNumber);
+		    boolean login1=StudentLogin.studentLogin(emailId,userPassword,mobileNumber);
 		    assertTrue(login1);
 		}
 		
@@ -43,12 +43,12 @@ public class LoginTest {
 			String userPassword="Yavithi@89";
 			Long userMob=9080767678l;
 			String mobileNumber=String.valueOf(userMob);
-		    boolean login2= Login.studentLogin(emailId,userPassword,mobileNumber);
+		    boolean login2= StudentLogin.studentLogin(emailId,userPassword,mobileNumber);
 		    assertFalse(login2);
 		}
 		
 		/**
-		 * Second test case is to pass wrong userPassword and emailId,mobileNumber and return the false that is userPassword is wrong
+		 * Second test case is to pass wrong userPassword and correct emailId,mobileNumber and return the false that is userPassword is wrong
 		 */
 		
 		@Test
@@ -58,12 +58,12 @@ public class LoginTest {
 			String userPassword="Yavithi@";
 			Long userMob=9080767678l;
 			String mobileNumber=String.valueOf(userMob);
-		    boolean login3= Login.studentLogin(emailId,userPassword,mobileNumber);
+		    boolean login3= StudentLogin.studentLogin(emailId,userPassword,mobileNumber);
 		    assertFalse(login3);
 		}
 		
 		/**
-		 * Third test case is to pass wrong userMob and emailId,userPassword and return the false that is mobileNumber is wrong
+		 * Third test case is to pass wrong userMob and correct emailId,userPassword and return the false that is mobileNumber is wrong
 		 */
 		
 		@Test
@@ -73,7 +73,7 @@ public class LoginTest {
 			String userPassword="Yavithi@89";
 			Long userMob=908076l;
 			String mobileNumber=String.valueOf(userMob);
-		    boolean login4= Login.studentLogin(emailId,userPassword,mobileNumber);
+		    boolean login4= StudentLogin.studentLogin(emailId,userPassword,mobileNumber);
 		    assertFalse(login4);
 		}
 		

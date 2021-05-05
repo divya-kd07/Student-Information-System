@@ -7,10 +7,10 @@ package in.divy2624;
  * @author divy2624
  *
  */
-public class Login {
+public class StudentLogin {
 	
 	/**
-	 * FEATURE 2 : LOGIN
+	 * FEATURE 2 : LOGIN-STUDENT
 	 * To create a UserLogin method for Login purpose.
 	 * To check the Login process using these variables emailId,userPassword,MobileNumber.
 	 * @return 
@@ -36,21 +36,21 @@ public class Login {
 	        		 }
 	        		 else 
 	        		 {
-	        			 System.out.println("INVALID MOILE NUMBER CREDENTIALS\nPLEASE ENTER YOUR CORRECT MOBILE NUMBER ");
+	        			 System.out.println("INVALID MOILE NUMBER CREDENTIALS\nPLEASE ENTER YOUR CORRECT MOBILE NUMBER \n");
 	        			 result = false;
 	        		 }
 	        		
 	        }
 	    	else
 	    	{
-	    		System.out.println("INVALID PASSWORD CREDENTIALS\nPLEASE ENTER YOUR CORRECT PASSWORD");
+	    		System.out.println("INVALID PASSWORD CREDENTIALS\nPLEASE ENTER YOUR CORRECT PASSWORD\n");
 	    		 result=false;
 	    	}
 	    			 
 	    }
 	    else
 	    {
-	        System.out.print("INVALID EMAIL-ID CREDENTIALS\nPLEASE ENTER YOUR CORRECT EMAIL-ID");
+	        System.out.print("INVALID EMAIL-ID CREDENTIALS\nPLEASE ENTER YOUR CORRECT EMAIL-ID\n");
 	        result=false;
 	    }
 		

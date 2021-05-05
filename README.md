@@ -7,12 +7,18 @@
   * Display Details
   
 #### Feature 2 : Login
+
+   * Student Login
   
    * Email Validation
    
    * Password Validation
    
-   * Login Checking
+   * Parent Login
+   
+   * RollNumber Validation
+   
+   * Date Validation
    
 #### Feature 3 : MarkDisplay
     
