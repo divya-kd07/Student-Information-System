@@ -7,6 +7,7 @@ public class Registration
 {
 	
 	/**
+	 * FEATURE1 : REGISTRATION
 	 * To create static ArrayList 
 	 * The static ArrayList is used in two methods.so I using static ArrayList.
 	 */

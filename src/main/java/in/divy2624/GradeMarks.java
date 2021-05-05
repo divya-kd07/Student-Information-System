@@ -7,9 +7,21 @@ package in.divy2624;
  * @author divy2624
  *
  */
-public class GradeMarks {
-	public static String getGrade(int marks) {
-		// TODO Auto-generated method stub
+public class GradeMarks 
+{
+	
+	/**
+	 *This method is used to feature3-calculate grade for marks.
+	 */
+	
+	public static String getGrade(int marks) 
+	{
+		
+		/** 
+		 * @param marks
+		 * @return
+		 */
+		
          String grade=null;
          if(marks>90)
          {

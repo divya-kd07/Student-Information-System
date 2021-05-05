@@ -21,7 +21,7 @@ public class RegistrationAddTest {
 	 */
 	
 	@Test
-	public void test1() 
+	public void studentInputDetails() 
 	{
 		StudentDetails user =new StudentDetails();
 		String name1="K.DIVYA";

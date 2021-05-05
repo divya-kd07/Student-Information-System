@@ -26,11 +26,6 @@ public class StudentDetails {
 	public Long parentMobileNumber;
 	public LocalDate dateOfBirth;
 	public LocalDate dateOfJoining;
-	public int tamil;
-	public int english;
-	public int mathamatics;
-	public int science;
-	public int social;
 	
 }
 

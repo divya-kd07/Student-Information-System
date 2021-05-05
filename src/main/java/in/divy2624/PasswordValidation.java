@@ -11,6 +11,9 @@ import java.util.regex.Pattern;
  *
  */
 public class PasswordValidation {
+	
+	// Java program to check if an password is correct format or not.
+	
 		public static boolean isValidPassword(String password)
 	    {
 
@@ -18,6 +21,8 @@ public class PasswordValidation {
 	                       + "(?=.*[a-z])(?=.*[A-Z])"
 	                       + "(?=.*[@#$%^&+=])"
 	                       + "(?=\\S+$).{8,20}$";
+	        
+	        
 
 	        Pattern p = Pattern.compile(regex);
 
