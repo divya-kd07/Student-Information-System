@@ -9,11 +9,12 @@ import java.time.LocalDate;
  * @author divy2624
  *
  */
-public class StudentDetails {
+public class StudentDetails 
+{
 	
-	public String name1;
-	public String name2;
-	public String name3;
+	public String studentName;
+	public String fatherName;
+	public String motherName;
 	public String emailId;
 	public String passWord;
 	public String rollNo;

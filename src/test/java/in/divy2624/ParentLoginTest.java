@@ -12,7 +12,8 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class ParentLoginTest {
+public class ParentLoginTest
+{
 	
 	/**
 	 * FEATURE 2 : LOGIN-PARENT

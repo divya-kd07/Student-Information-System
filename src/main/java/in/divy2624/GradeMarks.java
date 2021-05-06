@@ -7,7 +7,7 @@ package in.divy2624;
  * @author divy2624
  *
  */
-public class GradeMarks 
+public class GradeMarks
 {
 	
 	/**

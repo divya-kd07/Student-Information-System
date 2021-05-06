@@ -7,7 +7,8 @@ package in.divy2624;
  * @author divy2624
  *
  */
-public class MarksAddition {
+public class MarksAddition 
+{
 	
 	/**
 	 * This method is used for feature3-marks calculation.

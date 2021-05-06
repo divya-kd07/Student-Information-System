@@ -7,7 +7,8 @@ package in.divy2624;
  * @author divy2624
  *
  */
-public class StudentLogin {
+public class StudentLogin 
+{
 	
 	/**
 	 * FEATURE 2 : LOGIN-STUDENT
@@ -21,18 +22,27 @@ public class StudentLogin {
 		System.out.println("************************************STUDNET LOGIN PAGE**************************************");
 		
 		boolean result;
-	    if (EmailValidation.isValid(emailId))//If the email is to check correct format or not
+	    if (EmailValidation.isValid(emailId))
 	    {
+	    	/**
+	    	 * If the email is to check correct format or not
+	    	 */
 	    	System.out.println("ENTER YOUR EMAIL-ID : "+emailId);
-	    	if(PasswordValidation.isValidPassword(userPassword))//comparing the password for password checking
+	    	if(PasswordValidation.isValidPassword(userPassword))
 	    	{
+	    		/**
+	    		 *comparing the password for password checking 
+	    		 */
 	    		System.out.println("ENTER YOUR PASSWORD : "+userPassword);
-	        		 if(mobileNumber.length()==10) 
+	        		 if(mobileNumber.length()!=0 && mobileNumber.length()==10) 
 	        		 {
 	        			 System.out.println("ENTER YOUR MOBILE NUMBER : "+mobileNumber);
 	        			 result=true;
 	        			 
-	        			 //if you or anyone  login your account each and every time,the alert message send your mobile number
+	        			 /**
+	        			  * To check mobile number for future use.
+	        			  */
+	        			 
 	        		 }
 	        		 else 
 	        		 {

@@ -10,7 +10,8 @@ import static org.junit.Assert.assertEquals;
  * @author divy2624
  *
  */
-public class StudentAverageTest {
+public class StudentAverageTest 
+{
 	
 	/**
 	 * To check-passing first total mark and return average.

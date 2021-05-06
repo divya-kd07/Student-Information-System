@@ -10,7 +10,8 @@ import java.util.regex.Pattern;
  * @author divy2624
  *
  */
-public class PasswordValidation {
+public class PasswordValidation
+{
 	
 	// Java program to check if an password is correct format or not.
 	

@@ -12,7 +12,8 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class PasswordValidationTest {
+public class PasswordValidationTest 
+{
 	
 	/**
 	 * To check the given password is valid.

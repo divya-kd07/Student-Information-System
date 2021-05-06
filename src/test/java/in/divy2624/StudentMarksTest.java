@@ -11,7 +11,7 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class StudentMarksTest 
+public class StudentMarksTest
 {
 	
 	/**

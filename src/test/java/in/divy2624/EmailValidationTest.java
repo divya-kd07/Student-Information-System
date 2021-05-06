@@ -12,7 +12,8 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class EmailValidationTest {
+public class EmailValidationTest 
+{
 	
 	/**
 	 * To check the given emailId is valid.

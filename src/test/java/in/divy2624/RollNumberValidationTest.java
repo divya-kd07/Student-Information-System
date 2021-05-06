@@ -12,7 +12,8 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class RollNumberValidationTest {
+public class RollNumberValidationTest 
+{
 	
 	/**
 	 * To check the given rollNo is valid

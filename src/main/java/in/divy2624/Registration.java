@@ -3,7 +3,7 @@ package in.divy2624;
 
 import java.util.ArrayList;
 
-public class Registration 
+public class Registration
 {
 	
 	/**
@@ -39,7 +39,7 @@ public class Registration
 		
 		for(StudentDetails user1: register) 
 		{
-			 System.out.println("NAME:"+user1.name1+"\n"+"FATHER NAME:"+user1.name2+"\n"+"MOTHER NAME:"+user1.name3+"\n"+"EMAIL-ID:"+user1.emailId+"\n"+"PASSWORD:"+user1.passWord+"\n"+ "ROLLNUMBER:"+user1.rollNo+"\n"+ 
+			 System.out.println("NAME:"+user1.studentName+"\n"+"FATHER NAME:"+user1.fatherName+"\n"+"MOTHER NAME:"+user1.motherName+"\n"+"EMAIL-ID:"+user1.emailId+"\n"+"PASSWORD:"+user1.passWord+"\n"+ "ROLLNUMBER:"+user1.rollNo+"\n"+ 
 		    "GENDER:"+user1.gender+"\n"+"ADDRESS:"+user1.address+"\n"+"CITY:"+user1.city+"\n"+"OCCUPATION:"+user1.occupation+"\n"+"BLOOD-GROUP:"+user1.bloodGroup+"\n"+"CLASS:"+user1.standard+"\n"+
 			"PARENT MOBILE NUMBER:"+user1.parentMobileNumber+"\n"+"DATE OF BIRTH:"+user.dateOfBirth+"\n"+"DATEOF JOINING OUR EDUCATION:"+user.dateOfJoining);
 			 System.out.println("REGISTRATION SUCESSFULLY");

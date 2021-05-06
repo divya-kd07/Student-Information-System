@@ -13,7 +13,7 @@ import org.junit.Test;
  *
  */
 
-public class GradeReviewTest 
+public class GradeReviewTest
 {
 	/**
 	 * To check-passing first test grade and return comment.

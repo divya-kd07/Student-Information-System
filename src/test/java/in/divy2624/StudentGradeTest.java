@@ -11,7 +11,8 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class StudentGradeTest {
+public class StudentGradeTest
+{
 	
 	/**
 	 * To check-passing first average mark and return grade.

@@ -13,7 +13,8 @@ import org.junit.Test;
  * @author divy2624
  *
  */
-public class RegistrationAddTest {
+public class RegistrationAddTest 
+{
 	
 	/**
 	 * Feature1: Registration-Add the student details to the ArrayList
@@ -24,9 +25,9 @@ public class RegistrationAddTest {
 	public void studentInputDetails() 
 	{
 		StudentDetails user =new StudentDetails();
-		String name1="K.DIVYA";
-		String name2="R.KUMAR";
-		String name3="K.RAJESWARI";
+		String studentName="K.DIVYA";
+		String fatherName="R.KUMAR";
+		String motherName="K.RAJESWARI";
 		String emailId="divya@gmail.com";
 		String passWord="divyamar";
 		String rollNo="DD23CC8767";
@@ -42,9 +43,9 @@ public class RegistrationAddTest {
 		String dateOfJoining="2005-06-08";
 		LocalDate doj=LocalDate.parse(dateOfJoining);
 		
-		user.name1=name1;
-		user.name2=name2;
-		user.name3=name3;
+		user.studentName=studentName;
+		user.fatherName=fatherName;
+		user.motherName=motherName;
 		user.emailId=emailId;
 		user.passWord= passWord;
 		user.rollNo=rollNo;

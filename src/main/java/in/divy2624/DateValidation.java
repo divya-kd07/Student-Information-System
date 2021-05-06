@@ -13,19 +13,21 @@ public class DateValidation {
 	
 	  /**
 	   * This method used to valid valid date or not
-	   * @param date
+	   * @param studentDob
 	   * @return
 	   */
 	  
-	    public static boolean isValidDate(String date)
+	    public static boolean isValidDate(String studentDob)
 	    {
 	        String regex = "^(1[0-2]|0[1-9])/(3[01]"
 	                       + "|[12][0-9]|0[1-9])/[0-9]{4}$";
 	        
-	        // MM/DD/YYYY
+	        /**
+	         *  MM/DD/YYYY
+	         */
 	         
 	        Pattern pattern = Pattern.compile(regex);
-	        Matcher matcher = pattern.matcher((CharSequence)date);
+	        Matcher matcher = pattern.matcher((CharSequence)studentDob);
 	        return matcher.matches();// Returns true if d is in format
 	    }
 	  
